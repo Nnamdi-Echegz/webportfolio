@@ -1,0 +1,364 @@
+/*CSS FOR HOME PAGE*/
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(209, 203, 203);
+    font-family: 'Roboto Slab', serif;
+}
+.navBar{
+    width: 100%;
+    background-color: rgb(29, 29, 58);
+    display: flex;
+    flex-wrap: wrap;
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    margin-bottom: 20px;
+    justify-content: right;
+
+    
+}
+.navBar a{
+    float: right;
+    padding: 15px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.4s all;
+}
+.navBar a:hover{
+    background-color: #1abc9c;
+    color: rgb(240, 240, 19);
+    
+}
+.picdiv{
+    padding-top: 120px;
+    padding-right: 180px;
+    
+}
+.mypic{
+    width: 30%;
+    margin: 10px;
+    float: right;
+    border: 8px solid  rgb(29, 29, 58);   
+}
+.myname{
+    color: rgb(116, 146, 55);
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+    
+}
+.hometext{
+    font-size: larger;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 250px;
+
+}
+.myname{
+    margin: 0;
+}
+h5{
+    margin: 0;
+}
+.mypicSMSC{
+    display: none;
+    width: 50%;
+    margin: 10px;
+    float: right;
+    border: 8px solid  rgb(29, 29, 58); 
+}
+
+/*CSS CODE FOR ABOUT PAGE STARTS HERE*/
+.potrait-pic{
+    margin-top: 70px;
+    margin-left: 40%;
+
+}
+.about-picture{
+    width: 35%;
+    border: 6px solid  rgb(29, 29, 58) ;
+    
+
+}
+.SMSCabout-picture{
+    display: none;
+    
+}
+.about-me-text-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.about-me-text{
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*CSS FOR RESUME PAGE STARTS HERE*/
+.resumeContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.myresumepdf{
+    width: 60%;
+   /* display: flex;*/
+   /* margin: 0 auto 0 auto;*/
+    height: 620px;
+    margin-top: 60px;
+}
+.resumedownloadcontainer{
+    display: flex;
+    justify-content: left;
+}
+.resumedownloadpng{
+    width: 150px;
+
+
+}
+.myprojectscontainer{
+    display: flex;
+    width: 100%;
+    background-color: goldenrod;
+    margin-top: 4px;
+    padding: 9px;
+    border: 4px solid  rgb(29, 29, 58);
+    justify-content: center;
+    align-self: center;
+
+}
+.orderformspic{
+    width: 5%;
+    height: 5%;
+    margin-top:10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.hometownpic{
+    width: 5%;
+    height: 5%;
+    margin-top:10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.project-link{
+    color: black;
+    font-weight: 600;
+}
+.projects-block :hover{
+    background-color:  rgb(29, 29, 58);
+    color:  goldenrod ;
+    
+}
+
+/*CSS FOR COURSES PAGE STARTS HERE*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.container-block{
+    background-color: goldenrod;
+    width: 220px;
+    
+    margin-top: 30px;
+    margin: 10px;
+
+    border-radius: 15px;
+}
+.block-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: contain;
+    border-radius: 15px 15px 0 0;
+
+}
+.one{
+    background-image: url(coursesIMG/oop\ java.png);
+
+}
+.two{
+    background-image: url(coursesIMG/web\ programming.jpeg);
+}
+.three{
+    background-image: url(coursesIMG/linux.jpg);
+}
+.four{
+    background-image: url(coursesIMG/data\ base\ 2.jpg);
+}
+.five{
+    background-image: url(coursesIMG/communications.jpg);
+}
+.six{
+    background-image: url(coursesIMG/cooperative\ readiness.jpg);
+}
+.seven{
+    background-image: url(coursesIMG/dynamic\ dna.jpg);
+}
+.eight{
+    background-image: url(coursesIMG/Java.jpg);
+}
+.nine{
+    background-image: url(coursesIMG/computer\ essentials.jpg);
+}
+.ten{
+    background-image: url(coursesIMG/data\ base\ 1.jpg);
+}
+.eleven{
+    background-image: url(coursesIMG/achieving\ success.jpg);
+}
+.twelve{
+    background-image: url(coursesIMG/communications\ 2.jpg);
+}
+.container-block P{
+    padding: 10px;
+}
+.container-block h2{
+    margin-left: 5px;
+}
+.container-block a{
+    background-color: rgb(29, 29, 58) ;
+    color: white;
+    padding: 3px 3px;
+    display: block;
+    text-align: center;
+    margin: 10px 20px;
+    margin-top: 50px;
+    
+}
+.container-block:hover{
+    background-color: rgb(207, 106, 106);
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 0.3s;
+     
+
+}
+
+/*SMALLER SCREEN ORIENTATION*/
+@media only screen and (max-width: 600px){
+    .mypicSMSC{
+        display: block;
+        width: 120%;
+        margin-left: 192px;
+    }
+    .picdiv{
+        margin-top: 50px;
+        /*padding-right: 100px;*/
+        display: flex;
+        background-color: rgb(116, 146, 55);
+        justify-content: center;
+
+        
+    }
+
+    .mypic{
+        display: none;
+    }
+    .hometext{
+        margin-top: 35px;
+        margin-left: 33px;
+        padding: 5px;
+        
+    }
+    .navBar{
+        width: 100%;
+        background-color: rgb(29, 29, 58);
+        display: flex;
+        flex-wrap: wrap;
+        top: 0px;
+        position: fixed;
+        left: 0px;
+        margin-bottom: 20px;
+        justify-content: center;
+        padding: 7px;
+    
+    }
+    .navBar a{
+        /*padding: 12px;*/
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .about-picture{
+        display: none;
+    }
+    .potrait-pic{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .SMSCabout-picture{
+        display: inline-block;
+        /*margin-left: 90px;*/
+        width: 90%;
+        border: 6px solid  rgb(29, 29, 58) ;
+        
+    } 
+    .about-me-text-container{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin-left: 8.5%;
+        background-color: rgb(116, 146, 55);
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .about-me-text{
+        text-align: center;
+        font-weight: bolder;
+    }
+    /*.about-me-text{
+        padding: 15px;
+        background-color: rgb(116, 146, 55);
+        margin: 2px;
+    }*/
+    .myresumepdf{
+        width: 60%;
+       /* display: flex;*/
+       /* margin: 0 auto 0 auto;*/
+        height: 300px;
+        margin-top: 90px;
+        margin-bottom: 15px;
+    }   
+
+}
+
+
+
+
+
+
+
+/*navbartest
+.Navcontainer{
+    display: flex;
+    justify-content: right;
+    background-color: #1abc9c;
+    width: 100%;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 80px;
+}
+.test{
+    padding: 10px;
+}
+.navtestbody{
+
+}
+.navpicture{
+    margin-top: 50px;
+    width: 40px;
+}
