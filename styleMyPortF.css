@@ -70,6 +70,32 @@ h5{
     float: right;
     border: 8px solid  rgb(29, 29, 58); 
 }
+.linkedinicon{
+    height: 50px;
+}
+.instagramicon{
+    height: 50px;
+}
+.githubicon{
+    height: 46px;
+    padding-right: 8px;
+}
+.emailicon{
+    height: 53px;
+    padding-top: 2px;
+    padding-left: 8px;
+}
+.contacticons{
+    margin-top: 10px;
+    margin-left: 143px;
+    display: flex;
+    
+}
+.contacticons img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 
 /*CSS CODE FOR ABOUT PAGE STARTS HERE*/
 .potrait-pic{
@@ -185,41 +211,57 @@ h5{
     border-radius: 15px 15px 0 0;
 
 }
+
 .one{
+    background-image: url(coursesIMG/oop\ with\ design\ patterns.png);
+}
+.two{
+    background-image: url(coursesIMG/Mobile\ graphics\ programming.jpg);
+}
+.three{
+    background-image: url(coursesIMG/Network\ programming.jpg);
+}
+.four{
+    background-image: url(coursesIMG/Business\ programming.jpg);
+}
+.five{
+    background-image: url(coursesIMG/system-analysis-and-design.png);
+}
+.six{
     background-image: url(coursesIMG/oop\ java.png);
 
 }
-.two{
+.seven{
     background-image: url(coursesIMG/web\ programming.jpeg);
 }
-.three{
+.eight{
     background-image: url(coursesIMG/linux.jpg);
 }
-.four{
+.nine{
     background-image: url(coursesIMG/data\ base\ 2.jpg);
 }
-.five{
+.ten{
     background-image: url(coursesIMG/communications.jpg);
 }
-.six{
+.eleven{
     background-image: url(coursesIMG/cooperative\ readiness.jpg);
 }
-.seven{
+.twelve{
     background-image: url(coursesIMG/dynamic\ dna.jpg);
 }
-.eight{
+.thirteen{
     background-image: url(coursesIMG/Java.jpg);
 }
-.nine{
+.fourteen{
     background-image: url(coursesIMG/computer\ essentials.jpg);
 }
-.ten{
+.fifteen{
     background-image: url(coursesIMG/data\ base\ 1.jpg);
 }
-.eleven{
+.sixteen{
     background-image: url(coursesIMG/achieving\ success.jpg);
 }
-.twelve{
+.seventeen{
     background-image: url(coursesIMG/communications\ 2.jpg);
 }
 .container-block P{
@@ -292,6 +334,11 @@ h5{
         color: white;
         text-decoration: none;
         font-size: 14px;
+    }
+    .contacticons{
+        margin-left: 33px;
+        
+        
     }
     .about-picture{
         display: none;
