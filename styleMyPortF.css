@@ -33,10 +33,72 @@ body{
     color: rgb(240, 240, 19);
     
 }
+
+.ticker-tape{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    /* background-color:rgb(116, 146, 55);; */
+    padding-left: 3%;
+
+}
+
+.ticker-tape .ticker{
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    /* padding-right: 100%; */
+
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    -webkit-animation-duration: 40s;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 40s;
+
+}
+
+.ticker-tape .ticker_item{
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    color: rgb(29, 29, 58);
+}
+
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes ticker {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
 .picdiv{
-    padding-top: 120px;
+    padding-top: 10px;
     padding-right: 180px;
-    
 }
 .mypic{
     width: 30%;
