@@ -50,6 +50,7 @@ body{
     line-height: 30px;
     white-space: nowrap;
     /* padding-right: 100%; */
+    
 
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
